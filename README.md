@@ -1,0 +1,1 @@
+Welcome to RMOGUS, a very sus terminal screensaver written in rust.
