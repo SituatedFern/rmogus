@@ -41,7 +41,7 @@ fn main() {
                 thread::sleep(millis);
                 print!("\x1B[2J\x1B[1;1H"); //clears the screen and moves cursor to first line
             }
-            for mut temp2 in (2..calc).rev() {
+            for mut temp2 in (1..calc).rev() {
                 let new = amogus.repeat(temp2.try_into().unwrap()).to_string();
                 println!("{}{}", new,"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣤⣤⣤⣤⣤⣶⣦⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀");
                 println!("{}{}", new,"⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⡿⠛⠉⠙⠛⠛⠛⠛⠻⢿⣿⣷⣤⡀⠀⠀⠀⠀⠀");
